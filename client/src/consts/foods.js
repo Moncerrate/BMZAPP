@@ -1,0 +1,68 @@
+const foods = [
+    {
+      id: '1',
+      name: 'Shrimp Summer Rolls',
+      category: 'appetizer',
+      ingredients: 'summer rolls',
+      price: '9.00',
+      image: require('../assets/porkRolls.png'),
+      description:'Poached shrimp, lettuce, rice noodles, pickled carrots & daikon, chives, cucumber, mint, and bean sprouts. Served with a peanut hoisin dipping sauce',
+    },
+    {
+      id: '2',
+      name: 'Banh mi',
+      category: 'banh mi',
+      ingredients: ' beef banh mi',
+      price: '12.00',
+      image: require('../assets/beefBanhMi.png'),
+      description: 'Coconut curry shredded steak topped with fried shallots. Served with mayo, fresh cucumber, pickled carrots, daikon, sweet garlic soy sauce, and fresh cilantro sprigs',
+    },
+    {
+      id: '3',
+      name: 'Vegan Bun Bowl',
+      category: 'Bun Bowls',
+      ingredients:  'mushrooms and tofu',
+      price: '13.00',
+      image: require('../assets/veganBun.png'),
+      description: 'Braised shiitake & woodear mushrooms and fried tofu. Served with warm rice noodles, choice of protein, cucumber, lettuce, shallots, pickled carrots & daikon, bean sprouts, mint, peanuts, and homemade dipping sauce.',
+    },
+    {
+      id: '4',
+      name: 'Beef Rice Bowl',
+      category: 'Rice Plates',
+      ingredients: 'coconut curry beef',
+      price: '13.00',
+      image: require('../assets/beefRice.png'),
+      description:'White rice, pickled carrots, daikon, cucumber, tomato, and homemade fish sauce. Coconut curry braised flank steak and onions.',
+    },
+    {
+        id: '5',
+        name: 'lychee smoothie',
+        category: 'Beverages',
+        ingredients: 'lychee and mint',
+        price: '13.00',
+        image: require('../assets/smoothie.png'),
+        description: 'Lychee fruit blended with ice, mint, and condensed milk',
+      },
+      {
+      id: '6',
+      name: 'Grilled Pork summer Rolls',
+      category: 'appetizer',
+      ingredients: 'pork summer rolls',
+      price: '9.00',
+      image: require('../assets/shrimpRolls.png'),
+      description: 'BBQ Vietnamese pork patties, lettuce, rice noodles, pickled carrots & daikon, chives, cucumber, mint, and bean sprouts. Served with a peanut hoisin dipping sauce.',
+    },
+    {
+      id: '7',
+      name: 'Grilled Chicken Banh mi',
+      category: 'banh mi',
+      ingredients: ' chicken banh mi',
+      price: '12.00',
+      image: require('../assets/chickenBanhMi.png'),
+      description: ' Garlic & lemongrass marinated chicken thighs, grilled and chopped. Served with mayo, fresh cucumber, pickled carrots, daikon, sweet garlic soy sauce, and fresh cilantro sprigs',
+    },
+
+  ];
+  
+  export default foods;
